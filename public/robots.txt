@@ -1,2 +1,5 @@
+# Apenas diretivas válidas: User-agent, Allow, Disallow, Sitemap
+# Não use Content-Signal ou outras não padronizadas (geram "Unknown directive")
+
 User-agent: *
 Allow: /
