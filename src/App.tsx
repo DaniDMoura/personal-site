@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { Hero } from "./components/Hero";
 import { Footer } from "./components/Footer";
 
@@ -9,6 +10,7 @@ const App: FC = () => {
         <Hero />
         <Footer />
       </main>
+      <Analytics />
     </div>
   );
 };
