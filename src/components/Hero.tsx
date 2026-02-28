@@ -72,7 +72,7 @@ export const Hero: FC = () => {
                 key={currentSrc}
                 src={currentSrc}
                 alt="Danilo Moura"
-                className="absolute inset-0 w-full h-full object-cover rounded-sm ring-[1px] ring-white/15"
+                className="absolute inset-0 w-full h-full object-cover rounded-none ring-[1px] ring-white/15"
                 initial={{ opacity: 0, scale: 0.99 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.99 }}
@@ -110,7 +110,7 @@ export const Hero: FC = () => {
           as="a"
           href="mailto:mouradanilo061@gmail.com"
           variant="primary"
-          className="h-10 px-5 text-sm"
+          className="h-10 px-5 text-xs"
         >
           Entrar em contato
         </Button>

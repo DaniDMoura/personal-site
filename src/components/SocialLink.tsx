@@ -15,7 +15,7 @@ export const SocialLink: FC<SocialLinkProps> = ({ href, label, icon, className =
     target="_blank"
     rel="noopener noreferrer"
     variant="secondary"
-    className={`w-56 min-h-10 py-2.5 text-sm ${className}`.trim()}
+    className={`w-56 min-h-10 py-2.5 text-xs ${className}`.trim()}
     icon={icon}
   >
     {label}
