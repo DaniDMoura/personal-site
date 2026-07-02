@@ -91,7 +91,7 @@ export const Hero: FC = () => {
             variants={staggerItem}
             className="mt-0.5 text-[var(--color-text-secondary)] text-sm sm:text-base font-normal tracking-tight"
           >
-            Software Developer
+            Software Developer & Student
           </motion.p>
         </div>
       </div>
