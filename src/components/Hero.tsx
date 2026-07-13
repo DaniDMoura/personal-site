@@ -31,7 +31,7 @@ const SOCIAL_LINKS = [
     icon: <GitHubLogoIcon width={18} height={18} className="text-current icon-appearance" />,
   },
   {
-    href: "mailto:mouradanilo061@gmail.com",
+    href: "mailto:me@danilomoura.dev.br",
     label: "Email",
     icon: <EnvelopeClosedIcon width={18} height={18} className="text-current icon-appearance" />,
   },
@@ -108,7 +108,7 @@ export const Hero: FC = () => {
       <motion.div variants={staggerItem} className="mt-5">
         <Button
           as="a"
-          href="mailto:mouradanilo061@gmail.com"
+          href="mailto:me@danilomoura.dev.br"
           variant="primary"
           className="h-10 px-5 text-xs"
         >
