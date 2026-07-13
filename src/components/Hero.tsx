@@ -73,9 +73,9 @@ export const Hero: FC = () => {
                 src={currentSrc}
                 alt="Danilo Moura"
                 className="absolute inset-0 w-full h-full object-cover rounded-none ring-[1px] ring-white/15"
-                initial={{ opacity: 0, scale: 0.99 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.99 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
                 transition={heroImageTransition}
               />
             </AnimatePresence>
@@ -89,7 +89,7 @@ export const Hero: FC = () => {
           </motion.h1>
           <motion.p
             variants={staggerItem}
-            className="mt-0.5 text-[var(--color-text-secondary)] text-sm sm:text-base font-normal tracking-tight"
+            className="mt-0.5 text-[var(--color-text-secondary)] text-xs sm:text-[0.8125rem] font-normal tracking-tight"
           >
             Software Developer & Student
           </motion.p>

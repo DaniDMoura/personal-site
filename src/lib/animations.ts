@@ -45,8 +45,8 @@ export const buttonHoverTap = {
   transition: { type: "tween" as const, ease: easeSmooth, duration: 0.22 },
 } as const;
 
-/** Transição da foto do hero — crossfade com scale sutil */
+/** Transição da foto do hero — crossfade */
 export const heroImageTransition = {
-  duration: 0.55,
-  ease: easeSmooth,
+  duration: 0.6,
+  ease: [0.4, 0, 0.2, 1] as const,
 } as const;
